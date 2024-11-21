@@ -7,7 +7,7 @@ import pandas as pd
 app = FastAPI()
 
 # Cargar el modelo previamente entrenado
-model = joblib.load("path_to_model/model.joblib")
+model = joblib.load("notebooks\best_model.joblib")
 
 # Clase para entrada de datos
 class Transaction(BaseModel):
